@@ -31,21 +31,18 @@ public class Main {
 
     public static void task2() {
         //Задача 1,2
-        String fistName = "Ivan ";
-        String middleName = "Ivanovich ";
-        String lastName = "Ivanov ";
-        String fullName = lastName + fistName + middleName;
-        fullName = fullName.toUpperCase();
-        System.out.println("ФИО сотрудника - " + fullName);
+        String fistName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + " " + fistName + " " + middleName;
+        String changeFullName = fullName.toUpperCase();
+        System.out.println("ФИО сотрудника - " + changeFullName);
     }
 
     public static void task3() {
-        String fistName = "Семён ";
-        String middleName = "Семёнович ";
-        String lastName = "Иванов ";
-        String fullName = lastName + fistName + middleName;
-        fullName = fullName.replace('ё', 'е');
-        System.out.println("ФИО сотрудника - " + fullName);
+        String fullName = "Иванов Семён Семёнович";
+        String changeFullName = fullName.replace('ё', 'е');
+        System.out.println("Данные ФИО сотрудника — " + changeFullName);
     }
 
 
